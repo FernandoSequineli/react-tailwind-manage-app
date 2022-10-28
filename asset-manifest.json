@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-tailwind-manage-app/static/css/main.4f967f8a.css",
+    "main.js": "/react-tailwind-manage-app/static/js/main.963d3d4e.js",
+    "index.html": "/react-tailwind-manage-app/index.html",
+    "main.4f967f8a.css.map": "/react-tailwind-manage-app/static/css/main.4f967f8a.css.map",
+    "main.963d3d4e.js.map": "/react-tailwind-manage-app/static/js/main.963d3d4e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4f967f8a.css",
+    "static/js/main.963d3d4e.js"
+  ]
+}
