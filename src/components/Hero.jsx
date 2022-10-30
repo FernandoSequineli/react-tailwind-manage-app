@@ -13,7 +13,7 @@ const Hero = () => {
             Manage makes it simple for software teams to plan day-to-day tasks
             while keeping the larger team goals in view.
           </p>
-          <div class="flex justify-center md:justify-start">
+          <div className="flex justify-center md:justify-start">
             <a
               href="/"
               className="p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight"
@@ -22,7 +22,7 @@ const Hero = () => {
             </a>
           </div>
         </div>
-        <div class="md:w-1/2">
+        <div className="md:w-1/2">
           <img src={illustration} alt="Hero" />
         </div>
       </div>
