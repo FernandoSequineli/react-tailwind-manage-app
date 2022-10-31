@@ -1,4 +1,5 @@
-import React from "react";
+import { useState } from "react";
+import { FaBars, FaTimes } from "react-icons/fa";
 import logo from "../assets/logo.svg";
 
 const navLinks = [
@@ -25,6 +26,7 @@ const navLinks = [
 ];
 
 const NavBar = () => {
+  const [nav, setNav] = useState(false);
   return (
     <nav className="container relative mx-auto p-6">
       <div className="flex justify-between items-center">
@@ -49,27 +51,31 @@ const NavBar = () => {
         >
           Get Started
         </a>
-        <button
-          id="menu-btn"
-          className="block hamburger md:hidden focus:outline-none"
-        >
-          <span className="hamburger-top"></span>
-          <span className="hamburger-middle"></span>
-          <span className="hamburger-bottom"></span>
-        </button>
-      </div>
-      <div class="md:hidden">
+
         <div
-          id="menu"
-          className="absolute flex-col items-center hidden self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md"
+          onClick={() => setNav(!nav)}
+          className="block md:hidden focus:outline-none"
         >
-          <a href="/">Pricing</a>
-          <a href="/">Product</a>
-          <a href="/">About Us</a>
-          <a href="/">Careers</a>
-          <a href="/">Community</a>
+          {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
         </div>
       </div>
+
+      {nav && (
+        <div className="md:hidden">
+          <ul
+            id="menu"
+            className="flex flex-col items-center py-8 mt-10 space-y-8 absolute font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md"
+          >
+            {navLinks.map(({ id, link }) => (
+              <li key={id}>
+                <a onClick={() => setNav((prev) => !prev)} href="/">
+                  {link}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
     </nav>
   );
 };

@@ -1,7 +1,5 @@
 import React from "react";
-import facebook from "../assets/icon-facebook.svg";
-import twitter from "../assets/icon-twitter.svg";
-import instagram from "../assets/icon-instagram.svg";
+import { BsFacebook, BsTwitter, BsInstagram } from "react-icons/bs";
 import logoWhite from "../assets/logo-white.svg";
 
 const Footer = () => {
@@ -17,17 +15,17 @@ const Footer = () => {
             <img src={logoWhite} className="h-8" alt="/" />
           </div>
 
-          <div className="flex justify-center space-x-4">
+          <div className="flex justify-center space-x-5">
             <a href="/">
-              <img src={facebook} alt="/" className="h-8" />
+              <BsFacebook size={32} className="text-white" />
             </a>
 
             <a href="/">
-              <img src={twitter} alt="/" className="h-8" />
+              <BsTwitter size={32} className="text-white" />
             </a>
 
             <a href="/">
-              <img src={instagram} alt="/" className="h-8" />
+              <BsInstagram size={32} className="text-white" />
             </a>
           </div>
         </div>
