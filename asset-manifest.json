@@ -1,15 +1,22 @@
 {
   "files": {
-    "main.css": "/react-tailwind-manage-app/static/css/main.1ece6e0f.css",
-    "main.js": "/react-tailwind-manage-app/static/js/main.11776bc3.js",
+    "main.css": "/react-tailwind-manage-app/static/css/main.dd3f2177.css",
+    "main.js": "/react-tailwind-manage-app/static/js/main.a4264a36.js",
+    "static/media/avatar-ali.png": "/react-tailwind-manage-app/static/media/avatar-ali.88f9155cb730934f4d7c.png",
     "static/media/illustration-intro.svg": "/react-tailwind-manage-app/static/media/illustration-intro.cb9a8a9551ca99f99a125230d38a2c36.svg",
+    "static/media/avatar-anisha.png": "/react-tailwind-manage-app/static/media/avatar-anisha.484e15bc92ce6a0106ab.png",
+    "static/media/avatar-richard.png": "/react-tailwind-manage-app/static/media/avatar-richard.ace8e0892f67a50c1e9e.png",
+    "static/media/logo-white.svg": "/react-tailwind-manage-app/static/media/logo-white.ed205f7600235cdcd7682c5c30232418.svg",
     "static/media/logo.svg": "/react-tailwind-manage-app/static/media/logo.66a576108be35c08eb2ca3e40c17d151.svg",
     "index.html": "/react-tailwind-manage-app/index.html",
-    "main.1ece6e0f.css.map": "/react-tailwind-manage-app/static/css/main.1ece6e0f.css.map",
-    "main.11776bc3.js.map": "/react-tailwind-manage-app/static/js/main.11776bc3.js.map"
+    "static/media/bg-simplify-section-desktop.svg": "/react-tailwind-manage-app/static/media/bg-simplify-section-desktop.ca40c1eebd150b1cc7dc.svg",
+    "static/media/bg-simplify-section-mobile.svg": "/react-tailwind-manage-app/static/media/bg-simplify-section-mobile.a79c8471fa284189552d.svg",
+    "static/media/bg-tablet-pattern.svg": "/react-tailwind-manage-app/static/media/bg-tablet-pattern.b6990a984c7bcc142d3e.svg",
+    "main.dd3f2177.css.map": "/react-tailwind-manage-app/static/css/main.dd3f2177.css.map",
+    "main.a4264a36.js.map": "/react-tailwind-manage-app/static/js/main.a4264a36.js.map"
   },
   "entrypoints": [
-    "static/css/main.1ece6e0f.css",
-    "static/js/main.11776bc3.js"
+    "static/css/main.dd3f2177.css",
+    "static/js/main.a4264a36.js"
   ]
 }
